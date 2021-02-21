@@ -6,7 +6,7 @@ import numpy as np
 # Load up the files 
 # Windows users, you may need to change the train.csv
 # path to '.\train.csv'
-data_df = pd.read_csv('./train.csv')
+data_df = pd.read_csv('random_data.csv')
 data_np = data_df.to_numpy()
 
 print (data_np.shape)
