@@ -13,7 +13,7 @@ area(b).
 area(c).
 area(d).
 area(e).
-area(6).
+area(f).
 
 % Borders
 hasborder(a,(b;c;d)).  
