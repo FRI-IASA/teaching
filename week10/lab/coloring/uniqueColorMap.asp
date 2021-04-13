@@ -17,7 +17,7 @@ area(f).
 
 % Borders
 hasborder(a,(b;c;d)).  
-hasborder(b,(a;d;e;f)).  
+hasborder(b,(a;e)).  
 hasborder(c,(a;d;e)).
 hasborder(d,(a;b;c)).    
 hasborder(e,(c;b;f)).  
