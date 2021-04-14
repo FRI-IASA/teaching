@@ -1,7 +1,22 @@
 %%%%%% Fill in here with the facts about rooms and doors in the bartle library G floor
 %%%%%%%%%%%%%%%%%%%%%% 
 
+room(lng208).
+room(polisci).
+room(hallway_1).
+room(hallway_2).
 
+
+door(d_1).
+door(d_2_.
+
+
+hasdoor(lng208,d_1).
+hasdoor(polisci,d_2).
+hasdoor(hallway_1,d_1).
+hasdoor(hallway_1,d_2).
+hasdoor(hallway_2,d_1).
+hasdoor(hallway_2,d_2).
 
 
 
