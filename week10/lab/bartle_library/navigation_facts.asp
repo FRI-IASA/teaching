@@ -8,7 +8,7 @@ room(hallway_2).
 
 
 door(d_1).
-door(d_2_.
+door(d_2).
 
 
 hasdoor(lng208,d_1).
