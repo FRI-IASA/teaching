@@ -10,14 +10,14 @@
                (on ?x ?y))
 
   (:action pick
-           :parameters (?ob ?w)
+           :parameters (?ob)
            :precondition (and (clear ?ob) (on-table ?ob) (handempty))
            :effect (and (holding ?ob) (not (clear ?ob)) (not (handempty)) (not (on-table ?ob))))
 
 
 
   (:action place
-           :parameters (?ob ?underob ?w)
+           :parameters (?ob ?underob)
            :precondition (and  (clear ?underob) (not (handempty)) (holding ?ob))
            :effect (and (clear ?ob) (on ?ob ?underob) (handempty)
                         (not (clear ?underob)) (not (holding ?ob)))))
