@@ -24,7 +24,7 @@
         ()
         ()
         
-        ;; routes that connect the locations
+        ;; routes that connect the locations, routes are bi-directional
         ()
         ()
         ()
@@ -52,14 +52,20 @@
     )
     
     (:goal (and 
-        ;; drivers home
-        (at dr1 wp1)
-        (at dr2 wp1)
+        ;; drivers location
+        ()
+        ()
         
-        ;; packages delivered
-        (at pack1 wp9)
-        (at pack2 wp2)
-        (at pack3 wp9)
-        (at pack4 wp2)
+        ;; packages location
+        ()
+        ()
+        ()
+        ()
+
+        ;; Trucks location
+        ()
+        ()
+
+
     ))
 )
